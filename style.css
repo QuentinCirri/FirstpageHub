@@ -16,15 +16,22 @@ header {
   position: relative;
 }
 .mainS {
+  border: 2px solid white;
   color: white;
-  border: white;
-  border: 2px solid;
 }
+
 ul {
   list-style: none;
   display: flex;
-  align-content: end;
+  float: right;
+}
+header li a {
+  text-decoration: none;
+  color: white;
 }
 li {
   margin-right: 30px;
+}
+h1 {
+  color: white;
 }
